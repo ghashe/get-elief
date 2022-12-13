@@ -1,0 +1,151 @@
+.gr__navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem 3rem;
+}
+
+.gr__navbar-links {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.gr__navbar-links_logo {
+  margin-right: 2rem;
+}
+
+.gr__navbar-logo {
+  width: 5rem;
+  height: 5rem;
+
+  background-color: #0089fa;
+  outline: none;
+  border-radius: 100px;
+  margin: 15px 20px 0px 15px;
+
+  padding: -0.5rem 0.1rem 0.1rem 0.1rem;
+  transition: -webkit-transform 0.6s ease-out;
+  transition: transform 0.6s ease-out;
+  transition: transform 0.6s ease-out, -webkit-transform 0.6s ease-out;
+  display: inline-block;
+  color: #fff;
+  box-shadow: 0px 0px 10px #fff, 0px 0px 25px rgba(255, 255, 0, 1),
+    0px 0px 80px hwb(0 0% 0%), inset 1px 2px 8px #000,
+    inset 5px 4px 9px rgb(0, 0, 0), inset -3px 3px 8px rgb(0, 0, 0),
+    inset -3px -4px 8px rgb(0, 0, 0);
+  border: 1px solid #fff;
+}
+
+.gr__navbar-logo img {
+  width: 4rem;
+  height: 4rem;
+  margin-top: 0.5rem;
+  margin-left: 0.4rem;
+}
+
+.gr__navbar-links_container {
+  display: flex;
+  flex-direction: row;
+}
+
+.gr__navbar-sign {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.gr__navbar-links_container p,
+.gr__navbar-sign p,
+.gr__navbar-menu_container p {
+  color: #fff;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: capitalize;
+
+  margin: 1rem;
+  cursor: pointer;
+}
+
+.gr__navbar-sign button,
+.gr__navbar-menu_container button {
+  padding: 0.5rem 1rem;
+  color: #fff;
+  background: #ff4820;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 5px;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+}
+
+.gr__navbar-menu {
+  margin-left: 1rem;
+  display: none;
+  position: relative;
+}
+
+.gr__navbar-menu svg {
+  cursor: pointer;
+}
+
+.gr__navbar-menu_container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+
+  text-align: end;
+  background: var(--color-footer);
+  padding: 2rem;
+  position: absolute;
+  top: 40px;
+  right: 0;
+  margin-top: 1rem;
+  min-width: 210px;
+  border-radius: 5px;
+  box-shadow: 0, 0, 5 rgba(0, 0, 0, 0.2);
+}
+
+.gr__navbar-menu_container p {
+  margin: 1rem 0;
+}
+
+.gr__navbar-menu_container-links-sign {
+  display: none;
+}
+
+@media screen and (max-width: 1050px) {
+  .gr__navbar-links_container {
+    display: none;
+  }
+  .gr__navbar-menu {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .gr__navbar {
+    padding: 0rem 1.3rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .gr__navbar-sign {
+    display: none;
+  }
+
+  .gr__navbar-menu_container {
+    top: 20px;
+  }
+
+  .gr__navbar-menu_container-links-sign {
+    display: block;
+  }
+}

@@ -9,6 +9,8 @@ import {
   Header,
 } from "./containers";
 import { Membership, Workingwith, Navbar } from "./components";
+import "./App.css";
+
 const App = () => {
   return (
     <div className="App">
