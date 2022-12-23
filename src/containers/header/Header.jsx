@@ -6,7 +6,7 @@ const Header = () => {
     <div className="gr__header section__padding">
       <div className="gr__header-content">
         <h1 className="gradeient__text">
-          It is our goal to help you find a solution for almost any issue you
+          It's our goal to help you find a solution for almost any issue you
           may have!
         </h1>
         <p>
@@ -23,21 +23,14 @@ const Header = () => {
           be gone forever, and we will get you back in your truck in no time at
           all, then you will start to live a stress-free life.
         </p>
-        <p>
-          <h2>So What are you waiting for?</h2>
-        </p>
-
-        <div className="gr__header-content__input">
-          <input type="email" placeholder="Your Email Address" />
-          <button type="button">Get Started </button>
-        </div>
+        
 
         <div className="gr__header-content__services">
           <ul>
-            <h2>Sercices</h2>
+            <h2>Services</h2>
 
             <li>
-              <a href="">Auto Insurance</a>
+              <a href="#s-one">Green Card Applications</a>
             </li>
             <li>
               <a href="">Health insurance</a>
@@ -72,6 +65,15 @@ const Header = () => {
           <div className="gr__header-image">
             <img src={worker} alt="worker" />
           </div>
+          
+        </div>
+        <p>
+          <h2>So What are you waiting for?</h2>
+        </p>
+
+        <div className="gr__header-content__input">
+          <input type="email" placeholder="Your Email Address" />
+          <button type="button">Get Started </button>
         </div>
       </div>
     </div>

@@ -12,3 +12,9 @@
   --color-text: #81afdd;
   --color-subtext: #ff8a71;
 }
+
+@media screen and (max-width: 700px) {
+  :root {
+    --color-bg: #ffffff;
+  }
+}

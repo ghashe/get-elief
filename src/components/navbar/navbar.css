@@ -3,6 +3,9 @@
   justify-content: space-between;
   align-items: center;
   padding: 0rem 3rem;
+
+  border-left: 50px solid rgb(255, 255, 255);
+  border-right: 50px solid rgb(255, 255, 255);
 }
 
 .gr__navbar-links {
@@ -147,5 +150,18 @@
 
   .gr__navbar-menu_container-links-sign {
     display: block;
+  }
+
+  .gr__navbar {
+    border: 0px solid #fff;
+    border-bottom: 0 solid #fff;
+    border-top: px solid #fff;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .gr__navbar {
+    border-left: 0px solid rgb(11, 145, 255);
+    border-right: 0px solid rgb(11, 145, 255);
   }
 }

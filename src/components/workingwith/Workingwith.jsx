@@ -45,11 +45,13 @@ const Workingwith = () => {
       </div>
 
       <div id="iimn">
-        <a
-          href="http://https://iimn.org/"
+      <a
+          href=" https://iimn.org/"
           target="_blank"
           rel="noopener noreferrer"
         >
+
+  
           <img src={iimnlogo} alt="" />
         </a>
       </div>

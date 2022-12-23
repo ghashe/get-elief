@@ -1,11 +1,11 @@
 import React from "react";
 
 import {
-  About,
+  Aboutus,
   Footer,
   Blog,
   Commingsoon,
-  Services,
+  Profile,
   Header,
 } from "./containers";
 import { Membership, Workingwith, Navbar } from "./components";
@@ -18,9 +18,10 @@ const App = () => {
         <Navbar />
         <Header />
       </div>
+
       <Workingwith />
-      <About />
-      <Services />
+      <Aboutus />
+      <Profile />
       <Commingsoon />
       <Membership />
       <Blog />

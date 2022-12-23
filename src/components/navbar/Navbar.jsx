@@ -1,7 +1,10 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
+
+import { Link, useLocation } from "react-router-dom";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 import logo from "../../assets/GetReliefCompanyLogo2.png";
 import "./navbar.css";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 const Menu = () => (
   <>
@@ -82,3 +85,7 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+
+
+
